@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--스타일-->
+        <link rel="stylesheet" href="./style/default.css">
+        <link rel="stylesheet" href="./style/font.css">
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="./style/swiper.min.css">
+        <link rel="stylesheet" href="./style/animation.css">
+        <link rel="stylesheet" href="./style/customBoard.css">
+        <!--스크립트-->
+        <script type="text/javascript" src="./script/script.js"></script>
+        <script type="text/javascript" src="./script/swiper.min.js"></script>
+        <script type="text/javascript" src="./script/customBoard.js"></script>
+        <script type="text/javascript" src="./script/common_jp.js"></script>
+        <!-- 패럴렉스 -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+    </head>
+    <body id="google_translate_element">
+        <header>
+            <div class="lang-div">
+                <div class="inner">
+                    <div class="item">
+                        <div class="now-div">
+                            <div class="now">
+                                <img src="./img/lang/en.png" alt="영어" class="lang" />
+                                <div class="text">EN</div>
+                            </div>
+                            <img src="./img/header/drop-down.png" alt="드롭다운" class="icon down" />
+                            <ul class="lang-list">
+                                <li>
+                                  <a href="#" data-lang="ko">
+                                    <img src="./img/lang/ko.png" alt="Korean" class="lang" />Korean
+                                  </a>
+                                  <img src="./img/header/drop-up.png" alt="Close dropdown" class="icon"/>
+                                </li>
+                                <li><a href="#" data-lang="en"><img src="./img/lang/en.png" alt="English" class="lang" />English</a></li>
+                                <li><a href="#" data-lang="ja"><img src="./img/lang/jp.png" alt="Japanese" class="lang" />Japanese</a></li>
+                                <li><a href="#" data-lang="zh-CN"><img src="./img/lang/ch_1.png" alt="Chinese" class="lang" />Chinese (Simplified)</a></li>
+                                <li><a href="#" data-lang="zh-TW"><img src="./img/lang/ch_2.png" alt="Chinese" class="lang" />Chinese (Traditional)</a></li>
+                                <li><a href="#" data-lang="fr"><img src="./img/lang/pc.png" alt="French" class="lang" />French</a></li>
+                                <li><a href="#" data-lang="de"><img src="./img/lang/jm.png" alt="German" class="lang" />German</a></li>
+                                <li><a href="#" data-lang="es"><img src="./img/lang/sp.png" alt="Spanish" class="lang" />Spanish</a></li>
+                                <li><a href="#" data-lang="vi"><img src="./img/lang/ve.png" alt="Vietnamese" class="lang" />Vietnamese</a></li>
+                                <li><a href="#" data-lang="th"><img src="./img/lang/te.png" alt="Thai" class="lang" />Thai</a></li>
+                                <li><a href="#" data-lang="ru"><img src="./img/lang/ls.png" alt="Russian" class="lang" />Russian</a></li>
+                                <li><a href="#" data-lang="pt"><img src="./img/lang/po.png" alt="Portuguese" class="lang" />Portuguese</a></li>
+                                <li><a href="#" data-lang="ar"><img src="./img/lang/al.png" alt="Arabic" class="lang" />Arabic</a></li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-content">
+                <div class="inner">
+                    <a href="./index.html"><img src="./img/header/logo.png" alt="Onepay" class="logo"/></a>
+                    <ul class="menu-list">
+                            <a href="#" class="item">
+                                <img src="./img/header/down.png" alt="Onepay" class="icon" />
+                                <div class="text">WP File</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="item">
+                                <img src="./img/header/telegram.png" alt="Telegram" class="icon" />
+                                <div class="text">Telegram</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main id="smooth-wrapper">
+            <article id="smooth-content">
+                <div class="wrap sec_top">
+                    <section class="sec1 ani">
+                        <div class="inner">
+                            <div class="c_titleBox">
+                                <img src="./img/main/common_logo.png" alt="" class="c_title_img">
+                            </div>
+                            <div class="sec1_div">
+                                <p class="t1">NeuroBot (NB)</p>
+                                <p class="t2">Beyond the Boundary of Humans and Robots</p>
+                                <div class="stick"></div>
+                                <div class="t3">
+                                    The perfect fusion of industrial <br/>
+                                    robots and humanoids,<br/>
+                                    now connected through digital assets.
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="sec2 ani">
+                        <img src="./img/main/sec2/robot.png" alt="" class="float_icon">
+                        <div class="inner">
+                            <div class="c_titleBox">
+                                <img src="./img/main/common_logo.png" alt="" class="c_title_img">
+                                <p class="c_title">
+                                    The Future Built by NeuroBot
+                                </p>
+                            </div>
+                            <ul class="c_ul sec2_ul">
+                                <li>
+                                    <div class="item">
+                                        <div class="iconBox">
+                                            <img src="./img/main/sec2/icon1.png" alt="Fusion" class="icon">
+                                            <p class="name">Fusion</p>
+                                        </div>
+                                        <p class="t1">
+                                            “Combining the efficiency of <br/>
+                                            industrial robots with the flexibility<br/>
+                                            of humanoids.”
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="item">
+                                        <div class="iconBox">
+                                            <img src="./img/main/sec2/icon2.png" alt="Innovation" class="icon">
+                                            <p class="name">Innovation</p>
+                                        </div>
+                                        <p class="t1">
+                                            “NB coin is an innovative digital<br/>
+                                            asset that merges robotics<br/>
+                                            technology and blockchain.”
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="item">
+                                        <div class="iconBox">
+                                            <img src="./img/main/sec2/icon3.png" alt="Vision" class="icon">
+                                            <p class="name">Vision</p>
+                                        </div>
+                                        <p class="t1">
+                                            “Experience the future of smart<br/>
+                                            factories, healthcare, services, and<br/>
+                                            entertainment through NeuroBot.”
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="sec3 ani">
+                        <img src="./img/main/sec3/robot.png" alt="" class="float_icon">
+                        <div class="inner">
+                            <div class="c_titleBox">
+                                <img src="./img/main/common_logo.png" alt="" class="c_title_img">
+                                <p class="c_title">
+                                    More Than Just a Coin, <br/>
+                                    an Asset of the Future
+                                </p>
+                            </div>
+                            <ul class="c_ul sec3_ul">
+                                <li>
+                                    <div class="item">
+                                        <div class="iconBox">
+                                            <img src="./img/main/sec3/icon1.png" alt="Fusion" class="icon">
+                                            <p class="name">Growth Potential</p>
+                                        </div>
+                                        <p class="t1">
+                                            “Amid the explosive growth of <br/>
+                                            robotics and AI integration, NB<br/>
+                                            stands as the next-generation<br/>
+                                            digital asset.”
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="item">
+                                        <div class="iconBox">
+                                            <img src="./img/main/sec3/icon2.png" alt="Innovation" class="icon">
+                                            <p class="name">Innovation</p>
+                                        </div>
+                                        <p class="t1">
+                                            “Humanoid + Industrial Robot =<br/>
+                                            NeuroBot. A coin like no other,<br/>
+                                            connecting technology and<br/>
+                                            experience.”
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="item">
+                                        <div class="iconBox">
+                                            <img src="./img/main/sec3/icon3.png" alt="Vision" class="icon">
+                                            <p class="name">Ecosystem</p>
+                                        </div>
+                                        <p class="t1">
+                                            “NB holders enjoy exclusive<br/>
+                                            access to robotics-related NFTs, AI<br/>
+                                            services, and future tech<br/>
+                                            experiences.”
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="sec4 ani">
+                        <img src="./img/main/sec4/robot.png" alt="" class="float_icon">
+                        <div class="inner">
+                            <div class="c_titleBox">
+                                <img src="./img/main/common_logo.png" alt="" class="c_title_img">
+                                <p class="c_title">
+                                    Partners & Collaboration
+                                </p>
+                            </div>
+                            <div class="sec4_div">
+                                <img src="./img/main/sec4/img1.png" alt="" class="sec4_img">
+                                <div class="textBox">
+                                    <p class="t1">
+                                        Robot manufacturers, AI research labs, industrial <br/>
+                                        automation companies, and blockchain foundations<br/>
+                                        are connected within the NB ecosystem as a 
+                                    </p>
+                                    <p class="t2">“Robot Internet (RoT, Robot of Things).”</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="sec5 ani">
+                        <div class="inner">
+                            <div class="c_titleBox">
+                                <img src="./img/main/common_logo.png" alt="" class="c_title_img">
+                                <p class="c_title">
+                                    Call to Action <br/>
+                                </p>
+                                <p class="c_title_sub">
+                                    Join the evolution of NB today.
+                                </p>
+                            </div>
+                            <div class="sec5_Box">
+                                <div class="sec5_div">
+                                    <p class="t1">
+                                        The future of labor is driven by <span>robots</span> <br/>
+                                        and its value is powered by <span>NeuroBot.</span>
+                                    </p>
+                                    <p class="t2">
+                                        “ Join the evolution of NB today. ”
+                                    </p>
+                                </div>
+                                <ul class="se5_ul">
+                                    <li>
+                                        <a href="#">
+                                            <div class="iconBox">
+                                                <img src="./img/main/sec5/icon1.png" alt="" class="icon">
+                                                <p class="t1">WP File</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="iconBox">
+                                                <img src="./img/main/sec5/icon2.png" alt="" class="icon">
+                                                <p class="t1">Telegram</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="#">
+                                            <div class="iconBox">
+                                                <img src="./img/main/sec5/icon3.png" alt="" class="icon">
+                                                <p class="t1">X (twitter)</p>
+                                            </div>
+                                        </a>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="sec6 ani">
+                        <img src="./img/main/sec6/robot2.png" alt="" class="teo_icon float_icon1">
+                        <img src="./img/main/sec6/robot1.png" alt="" class="teo_icon float_icon2">
+                        <div class="inner">
+                            <p class="sec6_title">TEO</p>
+                            <p class="t1">
+                                The world’s first open-source humanoid platform <br/>
+                                built for advanced research and education.<br/>
+                                Powered by precision motion, high-speed<br/>
+                                performance, and aerospace-grade design.
+                            </p>
+                            <ul class="sec6_ul">
+                                <li><img src="./img/main/sec6/img1.png" alt="img1" class="sec6_img"></li>
+                                <li><img src="./img/main/sec6/img2.png" alt="img1" class="sec6_img"></li>
+                                <li><img src="./img/main/sec6/img3.png" alt="img1" class="sec6_img"></li>
+                                <li><img src="./img/main/sec6/img4.png" alt="img1" class="sec6_img"></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="puple_banner">
+                        For referral codes and other partnerships and inquiries, please contact swapoptionnet@gmail.com
+                    </section>
+                    <footer>
+                        <div class="inner">
+                            <img src="./img/main/common_logo.png" alt="NeuroBot" class="logo" />
+                            <div class="info">
+                                For referral codes and other partnerships and inquiries, <br/>
+                                please contact swapoptionnet@gmail.com Thank you.
+    
+                            </div>
+                            <div class="floor">
+                                First Floor, First St. Vincent Bank Ltd Building<br/>
+                                James Street Kingstown St. Vincent and Grenadines
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </article>
+        </main>
+
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement(
+                {pageLanguage: 'en'}, // 현재 페이지 기본 언어(영어라면 'en', 한국어라면 'ko')
+                'google_translate_element'
+              );
+            }
+          
+            document.addEventListener("DOMContentLoaded", function() {
+              document.querySelectorAll("header .lang-div .lang-list a").forEach(function(el) {
+                el.addEventListener("click", function(e) {
+
+                  e.preventDefault();
+                  var lang = this.getAttribute("data-lang");
+                  var select = document.querySelector(".goog-te-combo");
+                  if (select) {
+                    select.value = lang;
+                    select.dispatchEvent(new Event("change"));
+                  }
+                });
+              });
+            });
+          </script>
+          
+          <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+          <!-- Google 번역기 연동 스크립트 -->
+        <!-- <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+
+
+        function selectLanguage(code, name, flag) {
+            document.getElementById("selected-language").innerText = name;
+            document.querySelector(".dropdown-selected img").src = `https://flagcdn.com/w40/${flag}.png`;
+            document.getElementById("language-dropdown").style.display = "none";
+
+            const interval = setInterval(() => {
+            const combo = document.querySelector(".goog-te-combo");
+            if (combo) {
+                combo.value = code;
+                combo.dispatchEvent(new Event('change'));
+                clearInterval(interval);
+            }
+            }, 300);
+        }
+        </script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+
+
+
+    </body>
+</html>
